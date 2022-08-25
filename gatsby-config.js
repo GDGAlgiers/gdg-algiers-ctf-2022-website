@@ -1,34 +1,81 @@
 module.exports = {
-  siteMetadata: {
-    title: `Gatsby Default Starter`,
-    description: `Kick off your next, great Gatsby project with this default starter. This barebones starter ships with the main Gatsby configuration files you might need.`,
-    author: `@gatsbyjs`,
-    siteUrl: `https://gatsbystarterdefaultsource.gatsbyjs.io/`,
-  },
-  plugins: [
-    `gatsby-plugin-image`,
-    {
-      resolve: `gatsby-source-filesystem`,
-      options: {
-        name: `images`,
-        path: `${__dirname}/src/images`,
-      },
+    siteMetadata: {
+        title: `GDG Algiers CTF 2022`,
+        description: `GDG Algiers is organizing the first edition of the GDG Algiers CTF. An edition realized with the collaboration with Shellmates Club, it involves a jeopardy CTF with lot of fun and special challenges made by the CyberErudites team`,
+        author: `@GDG_Algiers`,
+        siteUrl: 'https://ctf.gdgalgiers.com',
+        keywords: [
+            'GDG',
+            'CTF',
+            'Algiers',
+            'Algeria',
+            'CyberSecurity',
+            'Hacking',
+            'Capture The Flag',
+            'Cryptography',
+            'Web',
+            'Reverse Engineering',
+            'Exploitation',
+            'Attack',
+        ],
+        image: 'https://i.ibb.co/1vRR8nD/Devfest21-1.png',
     },
-    `gatsby-transformer-sharp`,
-    `gatsby-plugin-sharp`,
-    {
-      resolve: `gatsby-plugin-manifest`,
-      options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
-        start_url: `/`,
-        background_color: `#663399`,
-        // This will impact how browsers show your PWA/website
-        // https://css-tricks.com/meta-theme-color-and-trickery/
-        // theme_color: `#663399`,
-        display: `minimal-ui`,
-        icon: `src/images/gatsby-icon.png`, // This path is relative to the root of the site.
-      },
-    },
-  ],
+    plugins: [
+        `gatsby-plugin-postcss`,
+        `gatsby-transformer-sharp`,
+        `gatsby-plugin-sharp`,
+        `gatsby-plugin-styled-components`,
+        `gatsby-plugin-next-seo`,
+        `gatsby-plugin-offline`,
+        {
+            resolve: 'gatsby-plugin-react-svg',
+            options: {
+                rule: {
+                    include: /\.inline\.svg$/,
+                },
+            },
+        },
+        {
+            resolve: 'gatsby-plugin-web-font-loader',
+            options: {
+                google: {
+                    families: ['Cairo', 'Open Sans', 'Roboto', 'Montserrat'],
+                },
+            },
+        },
+        {
+            resolve: `gatsby-source-filesystem`,
+            options: {
+                name: `images`,
+                path: `${__dirname}/src/images`,
+            },
+        },
+        {
+            resolve: `gatsby-plugin-manifest`,
+            options: {
+                name: `gatsby-tailwind-styled-components`,
+                short_name: `tailwindsc`,
+                start_url: `/`,
+                background_color: `#1C7EF0`,
+                theme_color: `#1C7EF0`,
+                display: `standalone`,
+                icon: `docs/logo.svg`, // This path is relative to the root of the site.
+            },
+        },
+        {
+            resolve: 'gatsby-plugin-eslint',
+            options: {
+                emitWarning: true,
+                failOnError: false,
+                extensions: ['js', 'jsx', 'ts', 'tsx'],
+                exclude: [
+                    'node_modules',
+                    'bower_components',
+                    '.cache',
+                    'public',
+                ],
+                stages: ['develop', 'build-javascript'],
+            },
+        },
+    ],
 }

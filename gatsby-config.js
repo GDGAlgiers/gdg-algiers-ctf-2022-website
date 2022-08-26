@@ -56,8 +56,8 @@ module.exports = {
                 name: `gatsby-tailwind-styled-components`,
                 short_name: `tailwindsc`,
                 start_url: `/`,
-                background_color: `#1C7EF0`,
-                theme_color: `#1C7EF0`,
+                background_color: `#141414`,
+                theme_color: `#141414`,
                 display: `standalone`,
                 icon: `docs/logo.svg`, // This path is relative to the root of the site.
             },

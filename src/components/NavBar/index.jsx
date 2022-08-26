@@ -1,6 +1,8 @@
 import React from 'react'
 import { Disclosure } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
+import { Link } from 'gatsby'
+import CTFLogo from '../../images/logo.png'
 import Navigations from '../../data/navbar'
 
 const NavBar = ({ className }) => (
@@ -11,7 +13,7 @@ const NavBar = ({ className }) => (
                     <div className="relative  flex flex-row justify-center sm:justify-between h-14  sm:h-20 sm:pt-4">
                         <div className="w-48 lg:block hidden">
                             <Link to="/">
-                                <img src={DevfestLogo} alt="Devfest" />
+                                <img src={CTFLogo} alt="GDG CTF" />
                             </Link>
                         </div>
                         <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">

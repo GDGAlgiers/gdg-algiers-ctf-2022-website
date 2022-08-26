@@ -9,11 +9,15 @@ const NavBar = ({ className }) => (
     <Disclosure as="nav" className={`${className ?? ''}`}>
         {({ open }) => (
             <>
-                <div className="flex-1 max-w-full px-4 sm:px-8 lg:px-8">
-                    <div className="relative  flex flex-row justify-center sm:justify-between h-14  sm:h-20 sm:pt-4">
+                <div className="flex-1 max-w-full px-4 font-Gilroy pt-[36px] sm:px-8 lg:px-[66px] 2xl:px-[100px] 2xl:pt-[54px]">
+                    <div className="relative  flex flex-row justify-center sm:justify-between h-14  sm:h-20">
                         <div className="w-48 lg:block hidden">
                             <Link to="/">
-                                <img src={CTFLogo} alt="GDG CTF" />
+                                <img
+                                    className="h-[48px] w-[107px] 2xl:h-[75px] 2xl:w-[167px]"
+                                    src={CTFLogo}
+                                    alt="GDG CTF"
+                                />
                             </Link>
                         </div>
                         <div className="absolute inset-y-0 left-0 flex items-center sm:hidden">
@@ -34,16 +38,16 @@ const NavBar = ({ className }) => (
                             </Disclosure.Button>
                         </div>
                         <div className="sm:hidden block">
-                            <h1 className=" text-black-darker pt-3 text-xl">
-                                DevFest 2021
+                            <h1 className="text-white-lighter font-bold pt-3 text-xl">
+                                GDG Algiers CTF22
                             </h1>
                         </div>
-                        <div className="hidden sm:flex flex-row space-x-5 md:space-x-8 pt-2 mx-2">
+                        <div className="hidden sm:flex flex-row sm:mx-auto space-x-5 md:space-x-8 pt-2 lg:mx-2">
                             {Navigations.map((item, index) => (
                                 <a
                                     id={`${index}`}
                                     href={item.href}
-                                    className="text-white-lighter text-base md:text-lg lg:text-xl hover:text-black-default"
+                                    className="text-white-lighter text-base md:text-lg lg:text-[18px] font-bold hover:text-black-default"
                                 >
                                     {item.title}
                                 </a>

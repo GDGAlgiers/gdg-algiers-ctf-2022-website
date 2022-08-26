@@ -30,6 +30,7 @@ module.exports = {
                 lighter: '#FBBC04',
                 default: '#F9AB00',
             },
+            'gdg-ctf-red': '#FB000A',
             blue: '#1C7EF0',
             darkBlue: '#0053BA',
             teal: '#1CE9B6',
@@ -40,6 +41,8 @@ module.exports = {
         },
         fontFamily: {
             sans: ['Roboto Mono', 'Cairo', 'Open Sans', 'sans-serif'],
+            KillerTech: ['KillerTech', 'sans-serif'],
+            Gilroy: ['Gilroy', 'sans-serif'],
         },
         textIndent: {
             // defaults to {}
@@ -196,12 +199,8 @@ module.exports = {
                 },
             },
         }),
-        // extend: {
-        //   colors : {
-        //     "dark-blue": "#191C48"
-        //   }
-        // }
     },
+
     variants: {
         // all the following default to ['responsive']
         textIndent: ['responsive'],

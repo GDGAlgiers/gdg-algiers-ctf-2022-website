@@ -1,6 +1,16 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+
+@font-face {
+    font-family: KillerTech;
+    src: url('/fonts/KillerTech-4Bj0l.ttf');
+}
+@font-face {
+    font-family: Gilroy;
+    src: url('/fonts/Radomir Tinkov-Gilroy-Light.otf');
+}
+
 @layer utilities {
     .snap {
         scroll-snap-type: var(--scroll-snap-direction)

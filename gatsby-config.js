@@ -78,4 +78,5 @@ module.exports = {
             },
         },
     ],
+    pathPrefix: '/gdg-algiers-ctf-2022-website',
 }

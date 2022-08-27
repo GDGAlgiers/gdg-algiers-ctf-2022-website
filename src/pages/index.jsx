@@ -2,6 +2,8 @@ import * as React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import Layout from '../components/Layout'
 import Footer from '../components/Footer'
+import Hero from '../components/Hero'
+import About from '../components/About'
 
 const INDEX_SEO = {
     title: 'Home',
@@ -55,7 +57,10 @@ export default function Home() {
                 ],
                 ...INDEX_SEO,
             }}
+            className="bg-[url('../images/background2.png')] bg-center bg-cover font-KillerTech"
         >
+            <Hero />
+            <About />
             <section id="contact">
                 <Footer />
             </section>

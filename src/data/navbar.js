@@ -12,6 +12,10 @@ export default [
         href: '/#partners',
     },
     {
+        title: 'Team',
+        href: '/#team',
+    },
+    {
         title: 'Sponsors',
         href: '/#sponsors',
     },

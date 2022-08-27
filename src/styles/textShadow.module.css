@@ -1,0 +1,6 @@
+.textShadow {
+    background: url('../images/heroText-bg.png');
+    background-size: cover;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+}

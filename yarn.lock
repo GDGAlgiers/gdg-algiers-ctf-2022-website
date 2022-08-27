@@ -1514,10 +1514,10 @@
   resolved "https://registry.yarnpkg.com/@headlessui/react/-/react-1.6.6.tgz#3073c066b85535c9d28783da0a4d9288b5354d0c"
   integrity sha512-MFJtmj9Xh/hhBMhLccGbBoSk+sk61BlP6sJe4uQcVMtXZhCgGqd2GyIQzzmsdPdTEWGSF434CBi8mnhR6um46Q==
 
-"@heroicons/react@^2.0.4":
-  version "2.0.4"
-  resolved "https://registry.yarnpkg.com/@heroicons/react/-/react-2.0.4.tgz#d82bf1ab146e52bb6f73ec088ec8a3e19d418a62"
-  integrity sha512-6C3CPY0vfWSHIMH0lr2L0KUJpPnKAnxgnzsiW0hXp8k9xu95ZFX5Qx4JQqZbQ1LsaGRyFqtyAnW5VerDY2XUdA==
+"@heroicons/react@v1":
+  version "1.0.6"
+  resolved "https://registry.yarnpkg.com/@heroicons/react/-/react-1.0.6.tgz#35dd26987228b39ef2316db3b1245c42eb19e324"
+  integrity sha512-JJCXydOFWMDpCP4q13iEplA503MQO3xLoZiKum+955ZCtHINWnx26CUxVxxFQu/uLb4LW3ge15ZpzIkXKkJ8oQ==
 
 "@humanwhocodes/config-array@^0.5.0":
   version "0.5.0"
@@ -4192,6 +4192,11 @@ date-fns@^2.25.0:
   version "2.29.2"
   resolved "https://registry.npmjs.org/date-fns/-/date-fns-2.29.2.tgz"
   integrity sha512-0VNbwmWJDS/G3ySwFSJA3ayhbURMTJLtwM2DTxf9CWondCnh6DTNlO9JgRSq6ibf4eD0lfMJNBxUdEAHHix+bA==
+
+dayjs@^1.11.5:
+  version "1.11.5"
+  resolved "https://registry.yarnpkg.com/dayjs/-/dayjs-1.11.5.tgz#00e8cc627f231f9499c19b38af49f56dc0ac5e93"
+  integrity sha512-CAdX5Q3YW3Gclyo5Vpqkgpj8fSdLQcRuzfX6mC6Phy0nfJ0eGYOeS7m4mt2plDWLAtA4TqTakvbboHvUxfe4iA==
 
 debug@2, debug@2.6.9, debug@^2.6.0, debug@^2.6.9:
   version "2.6.9"

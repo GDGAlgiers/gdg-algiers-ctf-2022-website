@@ -4,11 +4,11 @@
 
 @font-face {
     font-family: KillerTech;
-    src: url('/fonts/KillerTech-4Bj0l.ttf');
+    src: url('../fonts/KillerTech-4Bj0l.ttf');
 }
 @font-face {
     font-family: Gilroy;
-    src: url('/fonts/Radomir Tinkov-Gilroy-Light.otf');
+    src: url('../fonts/Gilroy-Light.otf');
 }
 
 @layer utilities {

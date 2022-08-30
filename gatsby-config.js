@@ -18,7 +18,7 @@ module.exports = {
             'Exploitation',
             'Attack',
         ],
-        image: 'https://i.ibb.co/1vRR8nD/Devfest21-1.png',
+        image: 'https://ibb.co/JkQh6V4',
     },
     plugins: [
         `gatsby-plugin-postcss`,

@@ -16,7 +16,7 @@ const INDEX_SEO = {
             'GDG Algiers CTF 2022 is a CTF organized by GDG Algiers. An edition realized with the collaboration with Shellmates Club, it involves a jeopardy CTF with lot of fun and special challenges made by the CyberErudites team',
         images: [
             {
-                url: 'https://ibb.co/JkQh6V4,
+                url: 'https://ibb.co/JkQh6V4',
                 width: 800,
                 height: 600,
                 alt: 'GDG Algiers CTF ',

@@ -4,6 +4,7 @@ import Layout from '../components/Layout'
 import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import About from '../components/About'
+import FaQ from '../components/FaQ'
 
 const INDEX_SEO = {
     title: 'Home',
@@ -61,6 +62,7 @@ export default function Home() {
         >
             <Hero />
             <About />
+            <FaQ />
             <section id="contact">
                 <Footer />
             </section>

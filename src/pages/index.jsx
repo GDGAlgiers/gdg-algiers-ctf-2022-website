@@ -4,6 +4,7 @@ import Layout from '../components/Layout'
 import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import About from '../components/About'
+import FaQ from '../components/FaQ'
 
 const INDEX_SEO = {
     title: 'Home',
@@ -16,7 +17,7 @@ const INDEX_SEO = {
             'GDG Algiers CTF 2022 is a CTF organized by GDG Algiers. An edition realized with the collaboration with Shellmates Club, it involves a jeopardy CTF with lot of fun and special challenges made by the CyberErudites team',
         images: [
             {
-                url: 'https://ibb.co/JkQh6V4,
+                url: 'https://ibb.co/JkQh6V4',
                 width: 800,
                 height: 600,
                 alt: 'GDG Algiers CTF ',
@@ -61,6 +62,7 @@ export default function Home() {
         >
             <Hero />
             <About />
+            <FaQ />
             <section id="contact">
                 <Footer />
             </section>

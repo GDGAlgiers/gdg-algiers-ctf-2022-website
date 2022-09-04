@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import * as React from 'react'
 import Navbar from '../NavBar'
 import HeroImage from '../../images/hero-img.png'

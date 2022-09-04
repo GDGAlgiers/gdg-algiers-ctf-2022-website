@@ -1,3 +1,4 @@
+/* eslint-disable prettier/prettier */
 import * as React from 'react'
 import BrokenSerie from '../../images/brokenSerie.png'
 import * as containerStyles from '../../styles/textShadow.module.css'
@@ -15,6 +16,7 @@ const About = () => {
                 sure to mark your calendar from 7th to 9th of October.
             </p>
         </section>
+        // eslint-disable-next-line prettier/prettier
     )
 }
 

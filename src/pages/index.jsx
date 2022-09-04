@@ -1,9 +1,13 @@
+/* eslint-disable prettier/prettier */
 import * as React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import Layout from '../components/Layout'
 import Footer from '../components/Footer'
 import Hero from '../components/Hero'
 import About from '../components/About'
+import Partners from '../components/Partners'
+import Prizes from '../components/Prizes'
+import Sponsors from '../components/Sponsors'
 
 const INDEX_SEO = {
     title: 'Home',
@@ -61,9 +65,17 @@ export default function Home() {
         >
             <Hero />
             <About />
+            <br />
+            <br />
+            <Partners />
+            <Prizes />
+            <Sponsors />
+
             <section id="contact">
                 <Footer />
             </section>
         </Layout>
     )
+
+    
 }

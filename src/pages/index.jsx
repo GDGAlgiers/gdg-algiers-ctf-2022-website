@@ -65,8 +65,6 @@ export default function Home() {
         >
             <Hero />
             <About />
-            <br />
-            <br />
             <Partners />
             <Prizes />
             <Sponsors />

@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import * as React from 'react'
 import { graphql, useStaticQuery } from 'gatsby'
 import Layout from '../components/Layout'
@@ -74,6 +73,4 @@ export default function Home() {
             </section>
         </Layout>
     )
-
-    
 }

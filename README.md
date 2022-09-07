@@ -107,12 +107,10 @@ Project Link: [https://github.com/GDGAlgiers/gdg-algiers-ctf-2022-website](https
 [issues-url]: https://github.com/othneildrew/Best-README-Template/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
 [license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[product-screenshot]: images/screenshot.png
+[product-screenshot]: src/images/capture.png
 [gatsby.js]: https://img.shields.io/badge/gatsby-000000?style=for-the-badge&logo=gatsby&logoColor=white
 [gatsby-url]: https://www.gatsbyjs.com
 [react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB
 [react-url]: https://reactjs.org/
 [tailwindcss.com]: https://img.shields.io/badge/tailwindcss-20232A?style=for-the-badge&logo=tailwindcss&logoColor=61DAFB
 [tailwindcss-url]: https://tailwindcss.com
-
-[![GDG-ALGERS-CTF][product-screenshot]]: src/images/127.0.0.1*8000*.png

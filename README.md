@@ -9,7 +9,7 @@
 <br />
 <div align="center">
   <a href="https://github.com/othneildrew/Best-README-Template">
-    <img src="src/images/GDG-LOGO.png" alt="Logo" width="80" height="80">
+    <img src="src/images/GDG-LOGO.png" alt="Logo" >
   </a>
 
   <h3 align="center">GDG ALGIERS</h3>

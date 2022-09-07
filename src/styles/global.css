@@ -30,3 +30,6 @@
 html {
     scroll-behavior: smooth;
 }
+.Social{
+    @apply w-[17px] h-[17px] md:w-[37px] md:h-[37px] 2xl:w-[50px] 2xl:h-[50px]  text-gdg-ctf-red absolute top-[50%] left-[50%] translate-y-[-50%] translate-x-[-50%]
+}

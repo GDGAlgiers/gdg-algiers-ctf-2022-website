@@ -114,4 +114,5 @@ Project Link: [https://github.com/GDGAlgiers/gdg-algiers-ctf-2022-website](https
 [react-url]: https://reactjs.org/
 [tailwindcss.com]: https://img.shields.io/badge/tailwindcss-20232A?style=for-the-badge&logo=tailwindcss&logoColor=61DAFB
 [tailwindcss-url]: https://tailwindcss.com
-[product-screenshot]: src/images/127.0.0.1_8000_.png
+
+[![GDG-ALGERS-CTF][product-screenshot]]: src/images/127.0.0.1*8000*.png

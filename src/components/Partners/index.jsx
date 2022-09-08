@@ -7,7 +7,7 @@ import Description from '../shared/Description'
 
 const Partners = () => {
     return (
-        <section id="partners" className="mt-12 md:mt-24 mb-48">
+        <section id="partners" className="mt-12 md:mt-24">
             <Title titlename="Partners" />
             <Description paragraph="Shellmates is a Club who gathered the cybersecurity enthusiasts from all over Algeria, promoting one of the most prestigious legacy's in the field, and gathering many talents accoss the country." />
 

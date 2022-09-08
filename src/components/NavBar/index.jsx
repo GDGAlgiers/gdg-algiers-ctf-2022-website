@@ -48,7 +48,9 @@ const NavBar = ({ className }) => (
                                 <a
                                     id={`${index}`}
                                     href={item.href}
-                                    className="text-white-lighter text-base md:text-lg lg:text-[18px] font-bold hover:text-black-default"
+                                    className={`text-white-lighter text-base md:text-lg lg:text-[18px] font-bold hover:text-black-default ${
+                                        item.isHidden && 'hidden'
+                                    }`}
                                 >
                                     {item.title}
                                 </a>

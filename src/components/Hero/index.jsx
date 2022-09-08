@@ -18,15 +18,17 @@ const Hero = () => {
                             READY TO START CAPTURING FLAGS ?
                         </h1>
                         <div className="text-center lg:text-left">
-                            <button
+                            <a
+                                href="https://ctftime.org/event/1745"
                                 type="button"
-                                className="rounded-[7px] border border-gdg-ctf-red py-[21px] px-[82px] lg:px-[63px] lg:text-lg 2xl:py-[31px] 2xl:px-[94px] 2xl:text-[28px] overflow-hidden relative group"
+                                target="__blank"
+                                className="inline-block rounded-[7px] border border-gdg-ctf-red py-[21px] px-[82px] lg:px-[63px] lg:text-lg 2xl:py-[31px] 2xl:px-[94px] 2xl:text-[28px] overflow-hidden relative group"
                             >
                                 <span className="absolute w-64 h-0 transition-all duration-300 origin-center rotate-45 -translate-x-20 bg-gdg-ctf-red top-1/2 group-hover:h-64 group-hover:-translate-y-32 ease" />
                                 <span className="relative transition duration-300 text-gdg-ctf-red group-hover:text-white-lighter ease">
                                     JOIN US
                                 </span>
-                            </button>
+                            </a>
                         </div>
                     </div>
                     <img src={HeroImage} alt="GDG Algiers CTF22" />

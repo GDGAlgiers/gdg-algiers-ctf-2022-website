@@ -6,7 +6,7 @@ import Title from '../shared/Title'
 
 const Prizes = () => {
     return (
-        <section id="partners" className="mb-48">
+        <section id="partners" className="mb-48 hidden">
             <Title titlename="Prizes" />
             <div className="flex flex-col justify-center space-y-20   flex-wrap items-center lg:space-y-10  lg:flex-row lg:gap-44  lg:items-end lg:pr-[50px]  ">
                 <img

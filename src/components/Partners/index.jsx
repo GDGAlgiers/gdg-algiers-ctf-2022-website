@@ -7,16 +7,9 @@ import Description from '../shared/Description'
 
 const Partners = () => {
     return (
-        <section id="partners" className="mb-48">
+        <section id="partners" className="mt-12 md:mt-24 mb-48">
             <Title titlename="Partners" />
-            <Description
-                paragraph="
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem 
-             vivamus tortor id ultrices amet, scelerisque tellus proin et.
-              Enim neque non, elit, tincidunt. Pellentesque ornare dictumst 
-              mattis venenatis at lectus in.                
-            "
-            />
+            <Description paragraph="Shellmates is a Club who gathered the cybersecurity enthusiasts from all over Algeria, promoting one of the most prestigious legacy's in the field, and gathering many talents accoss the country." />
 
             <div className="flex flex-col space-y-14  mr-[10px] justify-center  items-center  lg:flex-row lg:items-end lg:mr-36 ">
                 <img
@@ -30,6 +23,7 @@ const Partners = () => {
                     alt=""
                 />
             </div>
+            <Description paragraph="CyberErudites is an Algerian CTF team created in 2019, it is currently holding the first place of CTF teams in Algeria. The team was created by the association of several Algerian teams like Sudo-Root, Team7even, Shellsec, and Th3jackers." />
         </section>
     )
 }

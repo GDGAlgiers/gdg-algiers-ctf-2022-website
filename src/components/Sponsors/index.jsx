@@ -5,7 +5,7 @@ import Description from '../shared/Description'
 
 const Sponsors = () => {
     return (
-        <section id="partners" className="mb-48">
+        <section id="partners" className="mb-48 hidden">
             <Title titlename="Sponsors" />
             <Description
                 paragraph="

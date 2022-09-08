@@ -7,6 +7,8 @@ import About from '../components/About'
 import Partners from '../components/Partners'
 import Prizes from '../components/Prizes'
 import Sponsors from '../components/Sponsors'
+import FaQ from '../components/FaQ'
+
 
 const INDEX_SEO = {
     title: 'Home',
@@ -67,6 +69,7 @@ export default function Home() {
             <Partners />
             <Prizes />
             <Sponsors />
+            <FaQ />
 
             <section id="contact">
                 <Footer />

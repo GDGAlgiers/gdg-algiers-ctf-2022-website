@@ -3,7 +3,7 @@
 [![Contributors][contributors-shield]][contributors-url]
 [![Stargazers][stars-shield]][stars-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![0BSD License][license-shield]][license-url]
 
 <!-- PROJECT LOGO -->
 <br />
@@ -27,65 +27,22 @@
 
 Participate in the first edition of the cybersecurity competition GDG Algiers CTF, and advance your cybersecurity abilities with ambitious competitors from around the world, make sure to mark your calendar from 7th to 9th of October.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 ### Built With
 
-This section should list any major frameworks/libraries used to bootstrap your project. Leave any add-ons/plugins for the acknowledgements section. Here are a few examples.
+The Technologies used to build the website:
 
 -   [![Gatsby][gatsby.js]][gatsby-url]
 -   [![React][react.js]][react-url]
 -   [![tailwindcss][tailwindcss.com]][tailwindcss-url]
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- GETTING STARTED -->
-
-## Getting Started
-
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
-
-### Installation
-
-_Below is an example of how you can instruct your audience on installing and setting up your app. This template doesn't rely on any external dependencies or services._
-
-1. Clone the repo
-    ```sh
-    git clone https://github.com/GDGAlgiers/gdg-algiers-ctf-2022-website.git
-    ```
-2. Install yarn packages
-    ```sh
-    yarn install
-    ```
-3. yarn develop
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-<!-- CONTRIBUTING -->
-
-## Contributing
-
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
-
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
-
-1. Fork the Project
-2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
-3. Commit your Changes (`git commit -m 'Add some AmazingFeature'`)
-4. Push to the Branch (`git push origin feature/AmazingFeature`)
-5. Open a Pull Request
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- LICENSE -->
 
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the 0BSD License. See `LICENSE.txt` for more information.
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- CONTACT -->
 
@@ -95,19 +52,18 @@ GDG ALGIERS - [@Gdg Algiers](https://twitter.com/gdg_algiers) - gdg.algiers@esi.
 
 Project Link: [https://github.com/GDGAlgiers/gdg-algiers-ctf-2022-website](https://github.com/GDGAlgiers/gdg-algiers-ctf-2022-website)
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 
 [contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
-[contributors-url]: https://github.com/othneildrew/Best-README-Template/graphs/contributors
+[contributors-url]: https://github.com/GDGAlgiers/gdg-algiers-ctf-2022-website/graphs/contributors
 [stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
-[stars-url]: https://github.com/othneildrew/Best-README-Template/stargazers
+[stars-url]: https://github.com/GDGAlgiers/gdg-algiers-ctf-2022-website
 [issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
-[issues-url]: https://github.com/othneildrew/Best-README-Template/issues
+[issues-url]: https://github.com/GDGAlgiers/gdg-algiers-ctf-2022-website/issues
 [license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
-[license-url]: https://github.com/othneildrew/Best-README-Template/blob/master/LICENSE.txt
-[product-screenshot]: src/images/capture.png
+[license-url]: https://github.com/GDGAlgiers/gdg-algiers-ctf-2022-website/blob/main/LICENSE
+[product-screenshot]: src/images/hero-img.png
 [gatsby.js]: https://img.shields.io/badge/gatsby-000000?style=for-the-badge&logo=gatsby&logoColor=white
 [gatsby-url]: https://www.gatsbyjs.com
 [react.js]: https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB

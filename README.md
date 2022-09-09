@@ -25,7 +25,7 @@
 
 [![GDG-ALGERS-CTF][product-screenshot]](src/images/127.0.0.1_8000_.png)
 
-Participate in the first edition of the cybersecurity competition GDG Algiers CTF, and advance your cybersecurity abilities with ambitious competitors from around the world, make sure to mark your calendar from 7th to 9th of October.
+This repository contains the website of GDG Algiers CTF22, which is the first edition of the cybersecurity competition GDG Algiers CTF.
 
 
 ### Built With

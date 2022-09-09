@@ -9,7 +9,6 @@ import Prizes from '../components/Prizes'
 import Sponsors from '../components/Sponsors'
 import FaQ from '../components/FaQ'
 
-
 const INDEX_SEO = {
     title: 'Home',
     description:

@@ -41,7 +41,7 @@ const Footer = () => {
                                         <img
                                             src={Solider}
                                             alt="solider.jpg"
-                                            className="w-[50px] md:w-[100px]  lg:w-[180px]"
+                                            className="w-[50px] md:w-[100px]  lg:w-[97px] 2xl:w-[145px]"
                                         />
                                         {el.icon}
                                     </div>

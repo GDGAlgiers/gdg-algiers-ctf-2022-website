@@ -64,7 +64,7 @@ const NavBar = ({ className }) => (
                             <a
                                 key={item.title}
                                 href={item.href}
-                                className={` block hover:text-black-default px-3 pb-2 rounded-md text-base font-medium text-center text-white-lighter `}
+                                className={` block hover:text-black-default px-3 pb-2 rounded-md text-base font-medium text-center text-white-lighter ${item.isHidden && 'hidden'}`}
                                 aria-current={item.current ? 'page' : undefined}
                             >
                                 {item.title}

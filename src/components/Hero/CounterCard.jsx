@@ -10,7 +10,7 @@ const CounterCard = ({ time, timeLeft }) => {
                     {timeLeft}
                 </span>
             </div>
-            <p className="uppercase">{time}</p>
+            <p className="uppercase text-white-lighter">{time}</p>
         </div>
     )
 }

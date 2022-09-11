@@ -1,4 +1,3 @@
-/* eslint-disable prettier/prettier */
 import React from 'react'
 import { Disclosure } from '@headlessui/react'
 import { MenuIcon, XIcon } from '@heroicons/react/outline'
@@ -48,7 +47,7 @@ const NavBar = ({ className }) => (
                                 <a
                                     id={`${index}`}
                                     href={item.href}
-                                    className={`text-white-lighter text-base md:text-lg lg:text-[18px] font-bold hover:text-black-default ${
+                                    className={`text-white-lighter text-base md:text-lg lg:text-[18px] font-bold hover:text-gdg-ctf-red transition-all duration-700 ${
                                         item.isHidden && 'hidden'
                                     }`}
                                 >
@@ -64,7 +63,9 @@ const NavBar = ({ className }) => (
                             <a
                                 key={item.title}
                                 href={item.href}
-                                className={` block hover:text-black-default px-3 pb-2 rounded-md text-base font-medium text-center text-white-lighter ${item.isHidden && 'hidden'}`}
+                                className={` block hover:text-gdg-ctf-red px-3 pb-2 rounded-md text-base font-medium text-center text-white-lighter ${
+                                    item.isHidden && 'hidden'
+                                }`}
                                 aria-current={item.current ? 'page' : undefined}
                             >
                                 {item.title}

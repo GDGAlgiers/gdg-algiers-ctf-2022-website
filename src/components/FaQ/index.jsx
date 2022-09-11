@@ -14,7 +14,7 @@ const FaQ = () => {
         return 0
     }
     return (
-        <section id="faq" className="mt-12 md:mt-24">
+        <section id="faq" className="mt-24 md:mt-36">
             <p
                 className={`${containerStyles.textShadow} text-center text-[32px] leading-[38px] md:text-[48px] md:leading-[96px] 2xl:text-[72px] 2xl:leading-[144px]`}
             >

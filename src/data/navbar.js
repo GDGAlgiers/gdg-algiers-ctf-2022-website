@@ -22,7 +22,7 @@ export default [
     {
         title: 'Sponsors',
         href: '/#sponsors',
-        isHidden: true,
+        isHidden: false,
     },
     {
         title: 'Prizes',

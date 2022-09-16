@@ -1,27 +1,45 @@
 import * as React from 'react'
-import flags from '../../images/redblackflags.png'
+import gcp from '../../images/gcp-logo.png'
+import rootMe from '../../images/rootme.svg'
+import digitalOcean from '../../images/digital-ocean.png'
 import Title from '../shared/Title'
 import Description from '../shared/Description'
+import Wall from '../../images/wall_footer.png'
 
 const Sponsors = () => {
     return (
-        <section id="partners" className="mb-48 hidden">
+        <section id="sponsors" className="mb-48">
+            <div className="flex justify-center">
+                <img src={Wall} alt="Wall" className=" w-full h-64" />
+            </div>
             <Title titlename="Sponsors" />
             <Description
                 paragraph="
-             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Lorem 
-             vivamus tortor id ultrices amet, scelerisque tellus proin et.
-              Enim neque non, elit, tincidunt. Pellentesque ornare dictumst 
-              mattis venenatis at lectus in.                
+             The CTF was not possible without the contribution of our amzing sponsors. 
+             Thanks for Google for sponsoring the CTF infrastructure, 
+             Thanks also to Digital Ocean and Root-Me for sponsoring the prizes of the CTF                 
             "
             />
-
-            <div className="flex justify-center items-center">
-                <img
-                    src={flags}
-                    className="w-[240px] h-[160px] md:w-[340px] md:h-[210px] lg:w-[670px] lg:h-[450px] 2xl:w-[1000px] 2xl:h-[674px]"
-                    alt=""
-                />
+            <div className="flex justify-center">
+                <div className="w-11/12 ">
+                    <div className="flex justify-between items-center">
+                        <img
+                            src={gcp}
+                            className=" h-24 w-32 md:h-52 md:w-64 lg:h-72 lg:w-96 md:mx-3 lg:mx-8"
+                            alt="Google Cloud Platform"
+                        />
+                        <img
+                            src={digitalOcean}
+                            className=" h-20 w-20 md:h-32 md:w-32 lg:h-48 lg:w-48 md:mx-3  lg:mx-8"
+                            alt="Digital Ocean"
+                        />
+                        <img
+                            src={rootMe}
+                            className=" h-24 w-24 md:h-44 md:w-44 lg:h-64 lg:w-64 md:mx-3 lg:mx-8"
+                            alt="Root-Me"
+                        />
+                    </div>
+                </div>
             </div>
         </section>
     )

@@ -16,9 +16,7 @@ const Sponsors = () => {
             <Title titlename="Sponsors" />
             <Description
                 paragraph="
-             The CTF was not possible without the contribution of our amzing sponsors. 
-             Thanks for Google for sponsoring the CTF infrastructure, 
-             Thanks also to Digital Ocean, PentesterLab and Root-Me for sponsoring the prizes of the CTF                 
+                Our heartfelt thanks and appreciation to our dear sponsors, From Google who provided us with the needed infrastructure to Digital Ocean, PentesterLab, and Root-Me for ensuring the winner's prizes.                 
             "
             />
             <div className="flex justify-center">
@@ -47,6 +45,11 @@ const Sponsors = () => {
                     </div>
                 </div>
             </div>
+            <Description
+                paragraph="
+                Your contributions have been vital in bringing our event to life, we could not succeed without your generosity.                 
+            "
+            />
         </section>
     )
 }

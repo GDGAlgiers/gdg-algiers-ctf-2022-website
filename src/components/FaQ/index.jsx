@@ -20,8 +20,8 @@ const FaQ = () => {
             >
                 FaQ
             </p>
-            <p className="w-[74vw] m-auto text-center text-[15px] leading-[32px] py-[20px] md:text-[21px] md:leading-[54px] md:py-[54px] lg:text-[21px] lg:leading-[54px] lg:px-[54px] 2xl:text-[32px] 2xl:py-[80px] 2xl:leading-[80px] text-[#FFFFFF]">
-                Frequently asked questions related to the GDG Algiers CTF event
+            <p className="w-[74vw] m-auto text-center text-lg leading-[32px] py-[20px] md:text-[21px] md:leading-[54px] md:py-[54px] lg:text-[21px] lg:leading-[54px] lg:px-[54px] 2xl:text-[32px] 2xl:py-[80px] 2xl:leading-[80px] text-[#FFFFFF]">
+                Find answers to your raised questions
             </p>
             <div className="flex justify-center align-center">
                 <div className="w-[74vw]">

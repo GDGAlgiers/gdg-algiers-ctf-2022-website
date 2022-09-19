@@ -1,11 +1,22 @@
-/* eslint-disable prettier/prettier */
 import * as React from 'react'
+import { graphql, useStaticQuery } from 'gatsby'
+import Img from 'gatsby-image'
 import Navbar from '../NavBar'
-import HeroImage from '../../images/hero-img.png'
 import CounterContainer from './CounterContainer'
 import * as containerStyles from '../../styles/textShadow.module.css'
 
 const Hero = () => {
+    const data = useStaticQuery(graphql`
+        query HeroImage {
+            file(relativePath: { eq: "hero-img.png" }) {
+                childImageSharp {
+                    fluid {
+                        ...GatsbyImageSharpFluid
+                    }
+                }
+            }
+        }
+    `)
     return (
         <section id="home">
             <Navbar />
@@ -32,9 +43,8 @@ const Hero = () => {
                         </div>
                     </div>
                     <div className="lg:flex-1">
-                        <img
-                            src={HeroImage}
-                            className="w-full"
+                        <Img
+                            fluid={data.file.childImageSharp.fluid}
                             alt="GDG Algiers CTF22"
                         />
                     </div>

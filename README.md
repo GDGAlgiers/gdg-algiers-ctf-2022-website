@@ -27,7 +27,6 @@
 
 This repository contains the website of GDG Algiers CTF22, which is the first edition of the cybersecurity competition GDG Algiers CTF.
 
-
 ### Built With
 
 The Technologies used to build the website:
@@ -36,13 +35,11 @@ The Technologies used to build the website:
 -   [![React][react.js]][react-url]
 -   [![tailwindcss][tailwindcss.com]][tailwindcss-url]
 
-
 <!-- LICENSE -->
 
 ## License
 
 Distributed under the 0BSD License. See `LICENSE.txt` for more information.
-
 
 <!-- CONTACT -->
 
@@ -52,16 +49,15 @@ GDG ALGIERS - [@Gdg Algiers](https://twitter.com/gdg_algiers) - gdg.algiers@esi.
 
 Project Link: [https://github.com/GDGAlgiers/gdg-algiers-ctf-2022-website](https://github.com/GDGAlgiers/gdg-algiers-ctf-2022-website)
 
-
 <!-- MARKDOWN LINKS & IMAGES -->
 
-[contributors-shield]: https://img.shields.io/github/contributors/othneildrew/Best-README-Template.svg?style=for-the-badge
+[contributors-shield]: https://img.shields.io/github/contributors/GDGAlgiers/gdg-algiers-ctf-2022-website.svg?style=for-the-badge
 [contributors-url]: https://github.com/GDGAlgiers/gdg-algiers-ctf-2022-website/graphs/contributors
-[stars-shield]: https://img.shields.io/github/stars/othneildrew/Best-README-Template.svg?style=for-the-badge
+[stars-shield]: https://img.shields.io/github/stars/GDGAlgiers/gdg-algiers-ctf-2022-website.svg?style=for-the-badge
 [stars-url]: https://github.com/GDGAlgiers/gdg-algiers-ctf-2022-website
-[issues-shield]: https://img.shields.io/github/issues/othneildrew/Best-README-Template.svg?style=for-the-badge
+[issues-shield]: https://img.shields.io/github/issues/GDGAlgiers/gdg-algiers-ctf-2022-website.svg?style=for-the-badge
 [issues-url]: https://github.com/GDGAlgiers/gdg-algiers-ctf-2022-website/issues
-[license-shield]: https://img.shields.io/github/license/othneildrew/Best-README-Template.svg?style=for-the-badge
+[license-shield]: https://img.shields.io/github/license/GDGAlgiers/gdg-algiers-ctf-2022-website.svg?style=for-the-badge
 [license-url]: https://github.com/GDGAlgiers/gdg-algiers-ctf-2022-website/blob/main/LICENSE
 [product-screenshot]: src/images/hero-img.png
 [gatsby.js]: https://img.shields.io/badge/gatsby-000000?style=for-the-badge&logo=gatsby&logoColor=white

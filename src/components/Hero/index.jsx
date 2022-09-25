@@ -30,7 +30,7 @@ const Hero = () => {
                         </h1>
                         <div className="text-center lg:text-left">
                             <a
-                                href="https://ctftime.org/event/1745"
+                                href="https://ctf.gdgalgiers.com/register"
                                 type="button"
                                 target="__blank"
                                 className="inline-block rounded-[7px] border border-gdg-ctf-red py-[21px] px-[82px] lg:px-[63px] lg:text-lg 2xl:py-[31px] 2xl:px-[94px] 2xl:text-[28px] overflow-hidden relative group"

@@ -47,7 +47,7 @@ const Sponsors = () => {
             </div>
             <Description
                 paragraph="
-                Your contributions have been vital in bringing our event to life, we could not succeed without your generosity.                 
+                Your contributions have been vital in bringing our event to life, we could not succeed without your help.                 
             "
             />
         </section>
